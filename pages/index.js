@@ -3,7 +3,6 @@ import Program from "../components/Program";
 import { program } from "../data/programs";
 
 export default function Home() {
-  console.log(program);
   return (
     <div className="min-h-screen bg-black text-gray-50 ">
       <Head>
@@ -12,7 +11,13 @@ export default function Home() {
       </Head>
 
       <main className=" flex flex-col px-2 py-10">
-        <h1 className="text-xl font-semibold mx-auto py-5">Fitness Tracker</h1>
+        <div className="mx-auto text-center py-5">
+          <h1 className="text-xl font-semibold py-5">Fitness Tracker</h1>
+          <blockquote>
+            "There are no shortcuts—everything is reps, reps, reps.""
+          </blockquote>
+          <div>- Arnold Schwarzenegger</div>
+        </div>
         <Program program={program} />
       </main>
     </div>

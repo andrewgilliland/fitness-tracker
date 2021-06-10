@@ -1,3 +1,7 @@
 export default function Exercise({ exercise }) {
-  return <div>{exercise.name}</div>;
+  return (
+    <div>
+      <span>{exercise.name}</span> <span>{exercise.sets} x Sets</span>
+    </div>
+  );
 }
