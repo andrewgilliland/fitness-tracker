@@ -4,9 +4,9 @@ import { program } from "../data/programs";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-gray-50 ">
+    <div className="min-h-screen bg-black text-gray-50 z-10">
       <Head>
-        <title>Create Next App</title>
+        <title>Fitness Tracker</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

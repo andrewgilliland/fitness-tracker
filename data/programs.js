@@ -108,45 +108,9 @@ export const program = {
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Legs",
@@ -255,45 +219,9 @@ export const program = {
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Legs",
@@ -402,45 +330,9 @@ export const program = {
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Legs",
@@ -549,45 +441,9 @@ export const program = {
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
     {
       name: "Rest",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
     },
   ],
 };
