@@ -45,7 +45,7 @@ export default function Workout({ workout, day }) {
 
       <Drawer
         workout={workout}
-        isOpen={isDrawerOpen}
+        isDrawerOpen={isDrawerOpen}
         toggleDrawer={toggleDrawer}
         toggleDrawerKeyPress={toggleDrawerKeyPress}
       />
