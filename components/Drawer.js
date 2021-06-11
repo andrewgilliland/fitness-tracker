@@ -6,11 +6,9 @@ export default function Drawer({
   toggleDrawer,
   toggleDrawerKeyPress,
 }) {
-  console.log(toggleDrawerKeyPress);
-
   return (
     <div
-      className={`fixed top-0 inset-x-0 p-2 transition duration-200 transform ${
+      className={`fixed top-0 inset-x-0 p-2 transition duration-300 transform ${
         isOpen ? "z-20 ease-out translate-0" : "z-0 ease-in translate-y-full"
       }`}
     >
