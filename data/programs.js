@@ -1,5 +1,5 @@
 export const program = {
-  title: "Fitness Program",
+  title: "Starter Program",
   workouts: [
     {
       name: "Legs",
