@@ -1,4 +1,4 @@
-import Exercise from "./Exercise";
+import ExerciseInput from "./ExerciseInput";
 import Overlay from "./Overlay";
 
 export default function Drawer({
@@ -16,11 +16,13 @@ export default function Drawer({
             : "z-0 ease-in translate-y-full"
         }`}
       >
-        <div className="flex flex-col bg-blue-800 mx-auto p-5 rounded-xl max-w-sm h-screen">
+        <div className="flex flex-col bg-blue-800 mx-auto p-5 rounded-xl max-w-sm h-screen overflow-y-auto">
           <h4 className="font-semibold text-lg mb-3">{workout.name}</h4>
           {workout.exercises ? (
             workout.exercises.map((exercise, i) => (
-              <Exercise key={i} exercise={exercise} />
+              <>
+                <ExerciseInput key={i} exercise={exercise} />
+              </>
             ))
           ) : (
             <div>Have a great day off!</div>
