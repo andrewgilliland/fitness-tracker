@@ -13,10 +13,10 @@ export default function Home() {
       <main className=" flex flex-col px-2 py-10">
         <div className="mx-auto text-center py-5">
           <h1 className="text-xl font-semibold py-5">Fitness Tracker</h1>
-          <blockquote>
+          {/* <blockquote>
             "There are no shortcuts—everything is reps, reps, reps.""
           </blockquote>
-          <div>- Arnold Schwarzenegger</div>
+          <div>- Arnold Schwarzenegger</div> */}
         </div>
         <Program program={program} />
       </main>

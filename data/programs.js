@@ -1,441 +1,634 @@
 export const program = {
-  title: "Starter Program",
+  name: "Starter Program",
+  isCompleted: false,
   workouts: [
     {
       name: "Legs",
+      isCompleted: false,
       exercises: [
         {
           name: "Squats",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Lunges",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Leg Extensions",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Leg Curl",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
       ],
     },
     {
       name: "Chest",
+      isCompleted: false,
       exercises: [
         {
           name: "Bench Press",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Incline Bench Press",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Dumbbell Chest Fly",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Push-Up",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
       ],
     },
     {
       name: "Back",
+      isCompleted: false,
       exercises: [
         {
           name: "Lat Pull-Down",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Seated Row",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Bent-over Row",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Inverted Row",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
       ],
     },
     {
       name: "Shoulders",
+      isCompleted: false,
       exercises: [
         {
           name: "Shoulder Press",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Lateral Raise",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Face Pull",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Rear Delt Raise",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
       ],
     },
     {
       name: "Arms",
+      isCompleted: false,
       exercises: [
         {
           name: "Triceps Pushdown",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Triceps Kickback",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Barbell Curl",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
         {
           name: "Cable Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Legs",
-      exercises: [
-        {
-          name: "Squats",
-          sets: 4,
-        },
-        {
-          name: "Lunges",
-          sets: 4,
-        },
-        {
-          name: "Leg Extensions",
-          sets: 4,
-        },
-        {
-          name: "Leg Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Chest",
-      exercises: [
-        {
-          name: "Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Incline Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Dumbbell Chest Fly",
-          sets: 4,
-        },
-        {
-          name: "Push-Up",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Back",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Shoulders",
-      exercises: [
-        {
-          name: "Shoulder Press",
-          sets: 4,
-        },
-        {
-          name: "Lateral Raise",
-          sets: 4,
-        },
-        {
-          name: "Face Pull",
-          sets: 4,
-        },
-        {
-          name: "Rear Delt Raise",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Arms",
-      exercises: [
-        {
-          name: "Triceps Pushdown",
-          sets: 4,
-        },
-        {
-          name: "Triceps Kickback",
-          sets: 4,
-        },
-        {
-          name: "Barbell Curl",
-          sets: 4,
-        },
-        {
-          name: "Cable Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Legs",
-      exercises: [
-        {
-          name: "Squats",
-          sets: 4,
-        },
-        {
-          name: "Lunges",
-          sets: 4,
-        },
-        {
-          name: "Leg Extensions",
-          sets: 4,
-        },
-        {
-          name: "Leg Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Chest",
-      exercises: [
-        {
-          name: "Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Incline Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Dumbbell Chest Fly",
-          sets: 4,
-        },
-        {
-          name: "Push-Up",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Back",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Shoulders",
-      exercises: [
-        {
-          name: "Shoulder Press",
-          sets: 4,
-        },
-        {
-          name: "Lateral Raise",
-          sets: 4,
-        },
-        {
-          name: "Face Pull",
-          sets: 4,
-        },
-        {
-          name: "Rear Delt Raise",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Arms",
-      exercises: [
-        {
-          name: "Triceps Pushdown",
-          sets: 4,
-        },
-        {
-          name: "Triceps Kickback",
-          sets: 4,
-        },
-        {
-          name: "Barbell Curl",
-          sets: 4,
-        },
-        {
-          name: "Cable Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Rest",
-    },
-    {
-      name: "Legs",
-      exercises: [
-        {
-          name: "Squats",
-          sets: 4,
-        },
-        {
-          name: "Lunges",
-          sets: 4,
-        },
-        {
-          name: "Leg Extensions",
-          sets: 4,
-        },
-        {
-          name: "Leg Curl",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Chest",
-      exercises: [
-        {
-          name: "Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Incline Bench Press",
-          sets: 4,
-        },
-        {
-          name: "Dumbbell Chest Fly",
-          sets: 4,
-        },
-        {
-          name: "Push-Up",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Back",
-      exercises: [
-        {
-          name: "Lat Pull-Down",
-          sets: 4,
-        },
-        {
-          name: "Seated Row",
-          sets: 4,
-        },
-        {
-          name: "Bent-over Row",
-          sets: 4,
-        },
-        {
-          name: "Inverted Row",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Shoulders",
-      exercises: [
-        {
-          name: "Shoulder Press",
-          sets: 4,
-        },
-        {
-          name: "Lateral Raise",
-          sets: 4,
-        },
-        {
-          name: "Face Pull",
-          sets: 4,
-        },
-        {
-          name: "Rear Delt Raise",
-          sets: 4,
-        },
-      ],
-    },
-    {
-      name: "Arms",
-      exercises: [
-        {
-          name: "Triceps Pushdown",
-          sets: 4,
-        },
-        {
-          name: "Triceps Kickback",
-          sets: 4,
-        },
-        {
-          name: "Barbell Curl",
-          sets: 4,
-        },
-        {
-          name: "Cable Curl",
-          sets: 4,
+          isCompleted: false,
+          sets: [
+            {
+              isCompleted: false,
+              setNumber: 1,
+              resistance: 0,
+              reps: 15,
+            },
+            {
+              isCompleted: false,
+              setNumber: 2,
+              resistance: 0,
+              reps: 12,
+            },
+            {
+              isCompleted: false,
+              setNumber: 3,
+              resistance: 0,
+              reps: 10,
+            },
+            {
+              isCompleted: false,
+              setNumber: 4,
+              resistance: 0,
+              reps: 8,
+            },
+          ],
         },
       ],
     },
