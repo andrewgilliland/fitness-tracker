@@ -1,6 +1,36 @@
 import { useState } from "react";
 import Drawer from "./Drawer";
 import Modal from "./Modal";
+import { Machine } from "xstate";
+import { useMachine } from "@xstate/react";
+
+const workoutMachine = Machine({
+  id: "workout",
+  initial: "allClosed",
+  context: {
+    count: 0,
+  },
+  states: {
+    allClosed:{
+
+    },
+    modelOpening: {
+
+    },
+    modelOpen: {
+
+    },
+    modelClosed: {
+
+    },
+    drawerOpen: {
+
+    },
+    drawerClosed: {
+
+    },
+  }
+});
 
 export default function Workout({ workout, day }) {
   const [isModalOpen, setModalOpen] = useState(false);

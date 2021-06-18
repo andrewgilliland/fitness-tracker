@@ -2,13 +2,7 @@ import Workout from "../components/Workout";
 import { Machine } from "xstate";
 import { useMachine } from "@xstate/react";
 
-const workoutMachine = Machine({
-  id: "workout",
-  initial: "",
-  context: {
-    count: 0,
-  },
-});
+
 
 export default function Program({ program }) {
   // const [current, send] = useMachine(workoutMachine);
