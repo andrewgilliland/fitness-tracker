@@ -13,8 +13,8 @@ export default function ExerciseInput({ exercise }) {
         <span className="ml-10">Completed</span>
       </div>
 
-      {sets.map((set) => (
-        <div className="mt-2">
+      {sets.map((set, i) => (
+        <div key={i} className="mt-2">
           <div className="bg-black px-2 py-1 rounded inline-block">
             {set.setNumber}
           </div>
@@ -28,7 +28,11 @@ export default function ExerciseInput({ exercise }) {
             type="text"
             placeholder={set.reps}
           />
-          <input className="ml-8" type="checkbox" checked={set.isCompleted} />
+          <input
+            className="ml-8"
+            type="checkbox"
+            // checked={set.isCompleted}
+          />
         </div>
       ))}
     </div>

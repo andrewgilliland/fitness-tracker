@@ -20,17 +20,15 @@ export default function Drawer({
           <h4 className="font-semibold text-lg mb-3">{workout.name}</h4>
           {workout.exercises ? (
             workout.exercises.map((exercise, i) => (
-              <>
-                <ExerciseInput key={i} exercise={exercise} />
-              </>
+              <ExerciseInput key={i} exercise={exercise} />
             ))
           ) : (
             <div>Have a great day off!</div>
           )}
           <button
+            className="bg-green-600 px-4 py-2 mt-10 rounded-lg shadow-lg hover:bg-green-700"
             onClick={toggleDrawer}
             //   onKeyPress={toggleDrawerKeyPress}
-            className="bg-green-600 px-4 py-2 mt-10 rounded-lg shadow-lg hover:bg-green-700"
           >
             Finish Workout
           </button>
